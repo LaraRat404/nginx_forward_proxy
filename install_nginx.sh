@@ -1,7 +1,6 @@
 #!/bin/bash
 apt install gcc make libssl-dev libpcre3-dev zlib1g-dev  -y
 apt install certbot python3-certbot-nginx -y
-apt install patch
 cd /root
 wget http://nginx.org/download/nginx-1.22.1
 tar xf nginx-1.22.1.tar.gz 
