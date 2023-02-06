@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install gcc make libssl-dev libpcre3-dev zlib1g-dev  -y
+apt install gcc make libssl-dev libpcre3-dev zlib1g-dev libgeoip-dev -y
 apt install certbot python3-certbot-nginx -y
 apt install patch -y
 cd /root
