@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo su -
 # Next block EOF for AWS only. 
-cat <<EOF >> /etc/apt/sources.list
+cat <<EOF > /etc/apt/sources.list
 deb http://deb.debian.org/debian/ bullseye main
 deb-src http://deb.debian.org/debian/ bullseye main
 deb http://deb.debian.org/debian-security bullseye-security main
